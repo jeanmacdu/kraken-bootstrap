@@ -1,0 +1,14 @@
+# Historique git : change à chaque commit, invaliderait le cache pour rien
+.git
+# Environnement virtuel local : binaires de l'hôte (macOS), incompatibles avec le conteneur
+.venv
+# Sorties générées par les runs locaux
+output
+out
+# Tests : utiles en CI, pas dans l'image d'exécution
+tests
+# Caches Python et outils
+__pycache__
+**/__pycache__
+.pytest_cache
+.ruff_cache
