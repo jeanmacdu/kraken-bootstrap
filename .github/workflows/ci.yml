@@ -9,4 +9,4 @@ jobs:
   hello:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Commit testé : ${{ github.sha }}"
+      - run: echo "Commit testé ${{ github.sha }}"
